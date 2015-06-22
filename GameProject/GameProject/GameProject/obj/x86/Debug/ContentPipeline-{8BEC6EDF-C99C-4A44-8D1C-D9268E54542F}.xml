@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Arial20.spritefont</Source>
+      <Name>Arial20</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\Arial20.xnb</Output>
+      <Time>2015-06-22T17:13:22.8694548+08:00</Time>
+    </Item>
+    <Item>
+      <Source>burger.png</Source>
+      <Name>burger</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\burger.xnb</Output>
+      <Time>2015-06-22T17:13:22.8764597+08:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.png</Source>
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2015-06-22T17:13:22.8834642+08:00</Time>
+    </Item>
+    <Item>
+      <Source>frenchfries.png</Source>
+      <Name>frenchfries</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\frenchfries.xnb</Output>
+      <Time>2015-06-22T17:13:22.8894684+08:00</Time>
+    </Item>
+    <Item>
+      <Source>teddybear.png</Source>
+      <Name>teddybear</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybear.xnb</Output>
+      <Time>2015-06-22T17:13:22.8954722+08:00</Time>
+    </Item>
+    <Item>
+      <Source>teddybearprojectile.png</Source>
+      <Name>teddybearprojectile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybearprojectile.xnb</Output>
+      <Time>2015-06-22T17:13:22.9014774+08:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\BurgerDamage.wav</Source>
+      <Name>sounds\BurgerDamage</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDamage.xnb</Output>
+      <Time>2015-06-22T17:13:22.9104833+08:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\BurgerDeath.wav</Source>
+      <Name>sounds\BurgerDeath</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDeath.xnb</Output>
+      <Time>2015-06-22T17:13:22.9214916+08:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\BurgerShot.wav</Source>
+      <Name>sounds\BurgerShot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerShot.xnb</Output>
+      <Time>2015-06-22T17:13:22.928497+08:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\Explosion.wav</Source>
+      <Name>sounds\Explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\Explosion.xnb</Output>
+      <Time>2015-06-22T17:13:22.9375029+08:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\TeddyBounce.wav</Source>
+      <Name>sounds\TeddyBounce</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyBounce.xnb</Output>
+      <Time>2015-06-22T17:13:22.9435249+08:00</Time>
+    </Item>
+    <Item>
+      <Source>sounds\TeddyShot.wav</Source>
+      <Name>sounds\TeddyShot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyShot.xnb</Output>
+      <Time>2015-06-22T17:13:22.9515306+08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{8BEC6EDF-C99C-4A44-8D1C-D9268E54542F}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProjectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-06-17T22:45:02.5778468+08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
