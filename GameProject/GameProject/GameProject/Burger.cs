@@ -124,16 +124,20 @@ namespace GameProject
         public void Update(GameTime gameTime, MouseState mouse)
         {
             // burger should only respond to input if it still has health
-
+            if (health > 0)
+            {
                 // move burger using mouse
+                X = mouse.X;
+                Y = mouse.Y;
 
                 // clamp burger in window
-
+                
                 // update shooting allowed
+
                 // timer concept (for animations) introduced in Chapter 7
 
                 // shoot if appropriate
-
+            }
         }
 
         /// <summary>

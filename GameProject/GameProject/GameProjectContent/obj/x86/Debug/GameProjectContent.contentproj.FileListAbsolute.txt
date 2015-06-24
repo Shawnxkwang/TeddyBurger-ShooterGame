@@ -1,1 +1,2 @@
 C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProjectContent\obj\x86\Debug\GameProjectContent.contentprojResolveAssemblyReference.cache
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProjectContent\obj\x86\Debug\GameProjectContent.contentprojResolveAssemblyReference.cache

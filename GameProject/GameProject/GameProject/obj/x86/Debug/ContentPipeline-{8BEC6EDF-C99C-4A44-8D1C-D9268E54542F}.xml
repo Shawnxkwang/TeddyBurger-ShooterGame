@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\Arial20.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\Arial20.xnb</Output>
       <Time>2015-06-22T17:13:22.8694548+08:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\burger.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\burger.xnb</Output>
       <Time>2015-06-22T17:13:22.8764597+08:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb</Output>
       <Time>2015-06-22T17:13:22.8834642+08:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\frenchfries.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\frenchfries.xnb</Output>
       <Time>2015-06-22T17:13:22.8894684+08:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybear.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybear.xnb</Output>
       <Time>2015-06-22T17:13:22.8954722+08:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybearprojectile.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybearprojectile.xnb</Output>
       <Time>2015-06-22T17:13:22.9014774+08:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDamage.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDamage.xnb</Output>
       <Time>2015-06-22T17:13:22.9104833+08:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDeath.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDeath.xnb</Output>
       <Time>2015-06-22T17:13:22.9214916+08:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerShot.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerShot.xnb</Output>
       <Time>2015-06-22T17:13:22.928497+08:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\Explosion.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\Explosion.xnb</Output>
       <Time>2015-06-22T17:13:22.9375029+08:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyBounce.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyBounce.xnb</Output>
       <Time>2015-06-22T17:13:22.9435249+08:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyShot.xnb</Output>
+      <Output>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyShot.xnb</Output>
       <Time>2015-06-22T17:13:22.9515306+08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -116,10 +116,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProjectContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProjectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

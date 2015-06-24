@@ -16,3 +16,21 @@ C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programmin
 C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\bin\x86\Debug\GameProject.pdb
 C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\obj\x86\Debug\GameProject.exe
 C:\Users\Xiaokai\Documents\Visual Studio 2013\Projects\Beginning Game Programming with C#\projectIncrement\GameProject\GameProject\GameProject\obj\x86\Debug\GameProject.pdb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\obj\x86\Debug\GameProject.csprojResolveAssemblyReference.cache
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\obj\x86\Debug\GameProject.exe
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\Arial20.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\burger.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\explosion.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\frenchfries.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybear.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\teddybearprojectile.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDamage.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerDeath.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\BurgerShot.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\Explosion.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyBounce.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\Content\sounds\TeddyShot.xnb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\GameProject.exe
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\bin\x86\Debug\GameProject.pdb
+C:\Users\Xiaokai\Documents\GitHub\teddyBurger\GameProject\GameProject\GameProject\obj\x86\Debug\GameProject.pdb
