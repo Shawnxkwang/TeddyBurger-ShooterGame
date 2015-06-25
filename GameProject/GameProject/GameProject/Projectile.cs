@@ -91,7 +91,10 @@ namespace GameProject
             // move projectile
             drawRectangle.Y += (int )(yVelocity * gameTime.ElapsedGameTime.Milliseconds);
             // check for outside game window
-
+            if (drawRectangle.Bottom < 0 || drawRectangle.Top > GameConstants.WINDOW_HEIGHT)
+            {
+                active = false;
+            }
         }
 
         /// <summary>
