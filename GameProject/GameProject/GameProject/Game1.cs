@@ -142,7 +142,44 @@ namespace GameProject
             }
 
             // check and resolve collisions between teddy bears
+            for (int i = 0; i < bears.Count - 1; i++ )
+            {
+                for (int j = i+1; j < bears.Count -1; j++)
+                {
+                    if (bears[i].Active && bears[j].Active)
+                    {
+                        CollisionResolutionInfo info = CollisionUtils.CheckCollision(gameTime.ElapsedGameTime.Milliseconds,
+                            GameConstants.WINDOW_WIDTH,
+                            GameConstants.WINDOW_HEIGHT, 
+                            bears[i].Velocity, 
+                            bears[i].DrawRectangle, 
+                            bears[j].Velocity, 
+                            bears[j].DrawRectangle);
+                        if (info != null)
+                        {
+                            if (info.FirstOutOfBounds)
+                            {
+                                bears[i].Active = false;
+                            }
+                            else
+                            {
+                                bears[i].Velocity = info.FirstVelocity;
+                                bears[i].DrawRectangle = info.FirstDrawRectangle;
+                            }
+                            if (info.SecondOutOfBounds)
+                            {
+                                bears[j].Active = false;
 
+                            }
+                            else
+                            {
+                                bears[j].Velocity = info.SecondVelocity;
+                                bears[j].DrawRectangle = info.SecondDrawRectangle;
+                            }
+                        }
+                    }
+                }
+            }
             // check and resolve collisions between burger and teddy bears
 
             // check and resolve collisions between burger and projectiles
