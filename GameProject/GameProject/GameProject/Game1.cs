@@ -93,7 +93,10 @@ namespace GameProject
             frenchFriesSprite = Content.Load<Texture2D>("frenchfries");
             // add initial game objects
             burger = new Burger(Content,"burger",GameConstants.WINDOW_WIDTH/2,GameConstants.WINDOW_HEIGHT/8*7,null);
-            SpawnBear();
+            for (int i = 0; i < GameConstants.MAX_BEARS; i++ )
+            {
+                SpawnBear();
+            }
             explosionSpriteStrip = Content.Load<Texture2D>("explosion");
             // set initial health and score strings
         }
@@ -178,7 +181,13 @@ namespace GameProject
                 }
             }
                 // clean out finished explosions
-
+            for (int i = explosions.Count - 1; i >= 0; i-- )
+            {
+                if (explosions[i].Finished)
+                {
+                    explosions.RemoveAt(i);
+                }
+            }
                 base.Update(gameTime);
         }
 
