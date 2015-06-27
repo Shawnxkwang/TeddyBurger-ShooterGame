@@ -140,7 +140,7 @@ namespace GameProject
             {
                 explosion.Update(gameTime);
             }
-
+            
             // check and resolve collisions between teddy bears
             for (int i = 0; i < bears.Count - 1; i++ )
             {
