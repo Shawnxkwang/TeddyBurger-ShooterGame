@@ -94,7 +94,7 @@ namespace GameProject
             // add initial game objects
             burger = new Burger(Content,"burger",GameConstants.WINDOW_WIDTH/2,GameConstants.WINDOW_HEIGHT/8*7,null);
             SpawnBear();
-
+            explosionSpriteStrip = Content.Load<Texture2D>("explosion");
             // set initial health and score strings
         }
 
@@ -154,6 +154,9 @@ namespace GameProject
                     {
                         bear.Active = false;
                         proj.Active = false;
+                        // create explosion at the bear's location and add to the list
+                        Explosion explosion = new Explosion(explosionSpriteStrip,bear.Location.X, bear.Location.Y);
+                        explosions.Add(explosion);
 
                     }
                 }
