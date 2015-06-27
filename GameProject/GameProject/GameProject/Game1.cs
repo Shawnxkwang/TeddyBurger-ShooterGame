@@ -145,14 +145,38 @@ namespace GameProject
             // check and resolve collisions between burger and projectiles
 
             // check and resolve collisions between teddy bears and projectiles
+            foreach (TeddyBear bear in bears)
+            {
+                foreach (Projectile proj in projectiles)
+                {
+                    if (proj.Type == ProjectileType.FrenchFries &&
+                        bear.Active && proj.Active && bear.CollisionRectangle.Intersects(proj.CollisionRectangle))
+                    {
+                        bear.Active = false;
+                        proj.Active = false;
 
+                    }
+                }
+            }
             // clean out inactive teddy bears and add new ones as necessary
+            for (int i = bears.Count - 1; i >= 0; i-- )
+            {
+                if (!bears[i].Active)
+                {
+                    bears.RemoveAt(i);
+                }
+            }
+                // clean out inactive projectiles
+            for (int i = projectiles.Count - 1; i >= 0; i-- )
+            {
+                if (!projectiles[i].Active)
+                {
+                    projectiles.RemoveAt(i);
+                }
+            }
+                // clean out finished explosions
 
-            // clean out inactive projectiles
-
-            // clean out finished explosions
-
-            base.Update(gameTime);
+                base.Update(gameTime);
         }
 
         /// <summary>
