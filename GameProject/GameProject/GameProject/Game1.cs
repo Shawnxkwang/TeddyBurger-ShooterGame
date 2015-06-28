@@ -209,6 +209,10 @@ namespace GameProject
                     bears.RemoveAt(i);
                 }
             }
+            while (bears.Count < GameConstants.MAX_BEARS)
+            {
+                SpawnBear();
+            }
                 // clean out inactive projectiles
             for (int i = projectiles.Count - 1; i >= 0; i-- )
             {
