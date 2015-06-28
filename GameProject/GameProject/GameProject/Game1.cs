@@ -108,7 +108,7 @@ namespace GameProject
             explosionSpriteStrip = Content.Load<Texture2D>("explosion");
 
             // set initial health and score strings
-            healthString = burger.Health + GameConstants.HEALTH_PREFIX;
+            healthString = GameConstants.HEALTH_PREFIX + burger.Health;
             scoreString = GameConstants.SCORE_PREFIX + score;
         }
 
@@ -203,6 +203,7 @@ namespace GameProject
                     explosions.Add(bearExplosion);
                     burgerDamage.Play();
                     CheckBurgerKill();
+
                     healthString = GameConstants.HEALTH_PREFIX + burger.Health;
                 }
             }
@@ -215,6 +216,7 @@ namespace GameProject
                     burger.Health -= GameConstants.TEDDY_BEAR_PROJECTILE_DAMAGE;
                     burgerDamage.Play();
                     CheckBurgerKill();
+
                     healthString = GameConstants.HEALTH_PREFIX + burger.Health;
                 }
             }
