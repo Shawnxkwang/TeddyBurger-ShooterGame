@@ -68,6 +68,28 @@ namespace GameProject
         #region Private properties
 
         /// <summary>
+        /// get and set for burger health
+        /// </summary>
+        /// <returns></returns>
+        public int Health
+        {
+            get{ return health;}
+            set
+            {
+                if (value < 0)
+                {
+                    health = 0;
+                }
+                else if(value > 100) 
+                {
+                    health = 100;
+                }
+                else {
+                    health = value;
+                }
+            }
+        }
+        /// <summary>
         /// Gets and sets the x location of the center of the burger
         /// </summary>
         private int X
