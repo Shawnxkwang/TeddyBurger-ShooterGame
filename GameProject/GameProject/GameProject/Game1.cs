@@ -181,6 +181,7 @@ namespace GameProject
                                 bears[j].Velocity = info.SecondVelocity;
                                 bears[j].DrawRectangle = info.SecondDrawRectangle;
                             }
+                            teddyBounce.Play();
                         }
                     }
                 }
@@ -192,8 +193,11 @@ namespace GameProject
                 {
                     burger.Health -= GameConstants.BEAR_DAMAGE;
                     bear.Active = false;
-                    Explosion bearExplosion = new Explosion(explosionSpriteStrip, bear.Location.X, bear.Location.Y);
+                    Explosion bearExplosion = new Explosion(explosionSpriteStrip, bear.Location.X, bear.Location.Y, explosion);
                     explosions.Add(bearExplosion);
+                    burgerDamage.Play();
+                    CheckBurgerKill();
+                    
                 }
             }
             // check and resolve collisions between burger and projectiles
@@ -203,6 +207,9 @@ namespace GameProject
                 {
                     proj.Active = false;
                     burger.Health -= GameConstants.TEDDY_BEAR_PROJECTILE_DAMAGE;
+                    burgerDamage.Play();
+                    CheckBurgerKill();
+                    healthString = GameConstants.HEALTH_PREFIX + burger.Health;
                 }
             }
             // check and resolve collisions between teddy bears and projectiles
@@ -216,8 +223,8 @@ namespace GameProject
                         bear.Active = false;
                         proj.Active = false;
                         // create explosion at the bear's location and add to the list
-                        Explosion explosion = new Explosion(explosionSpriteStrip,bear.Location.X, bear.Location.Y);
-                        explosions.Add(explosion);
+                        Explosion exp = new Explosion(explosionSpriteStrip,bear.Location.X, bear.Location.Y, explosion);
+                        explosions.Add(exp);
 
                     }
                 }
@@ -391,7 +398,11 @@ namespace GameProject
         /// </summary>
         private void CheckBurgerKill()
         {
-
+            if (burger.Health == 0 && !burgerDead)
+            {
+                burgerDead = true;
+                burgerDeath.Play();
+            }
         }
 
         #endregion

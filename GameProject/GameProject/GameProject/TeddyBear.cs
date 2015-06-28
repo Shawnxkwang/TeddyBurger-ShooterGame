@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -195,13 +195,16 @@ namespace GameProject
                 // bounce off top
                 drawRectangle.Y = 0;
                 velocity.Y *= -1;
+                bounceSound.Play();
             }
             else if ((drawRectangle.Y + drawRectangle.Height) > GameConstants.WINDOW_HEIGHT)
             {
                 // bounce off bottom
                 drawRectangle.Y = GameConstants.WINDOW_HEIGHT - drawRectangle.Height;
                 velocity.Y *= -1;
+                bounceSound.Play();
             }
+            
         }
         /// <summary>
         /// Bounces the teddy bear off the left and right window borders if necessary
@@ -213,13 +216,16 @@ namespace GameProject
                 // bounc off left
                 drawRectangle.X = 0;
                 velocity.X *= -1;
+                bounceSound.Play();
             }
             else if ((drawRectangle.X + drawRectangle.Width) > GameConstants.WINDOW_WIDTH)
             {
                 // bounce off right
                 drawRectangle.X = GameConstants.WINDOW_WIDTH - drawRectangle.Width;
                 velocity.X *= -1;
+                bounceSound.Play();
             }
+            
         }
 
         /// <summary>
