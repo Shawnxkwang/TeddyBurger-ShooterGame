@@ -85,14 +85,19 @@ namespace GameProject
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // load audio content
-
+            burgerDamage = Content.Load<SoundEffect>(@"sounds\BurgerDamage");
+            burgerDeath = Content.Load<SoundEffect>(@"sounds\BurgerDeath");;
+            burgerShot = Content.Load<SoundEffect>(@"sounds\BurgerShot");
+            explosion = Content.Load<SoundEffect>(@"sounds\Explosion");
+            teddyBounce = Content.Load<SoundEffect>(@"sounds\TeddyBounce");
+            teddyShot = Content.Load<SoundEffect>(@"sounds\TeddyShot");
             // load sprite font
 
             // load projectile and explosion sprites
             teddyBearProjectileSprite = Content.Load<Texture2D>("teddybearprojectile");
             frenchFriesSprite = Content.Load<Texture2D>("frenchfries");
             // add initial game objects
-            burger = new Burger(Content,"burger",GameConstants.WINDOW_WIDTH/2,GameConstants.WINDOW_HEIGHT/8*7,null);
+            burger = new Burger(Content,"burger",GameConstants.WINDOW_WIDTH/2,GameConstants.WINDOW_HEIGHT/8*7, burgerShot);
             for (int i = 0; i < GameConstants.MAX_BEARS; i++ )
             {
                 SpawnBear();
@@ -334,7 +339,7 @@ namespace GameProject
 
 
             // create new bear
-            TeddyBear newBear = new TeddyBear(Content,"teddybear",xLocation,yLocation,velocity,null,null);
+            TeddyBear newBear = new TeddyBear(Content,"teddybear",xLocation,yLocation,velocity,teddyBounce, teddyShot);
             // make sure we don't spawn into a collision
             List<Rectangle> co= GetCollisionRectangles();
             while (!CollisionUtils.IsCollisionFree(newBear.CollisionRectangle,co))

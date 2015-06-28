@@ -162,6 +162,7 @@ namespace GameProject
                         Game1.GetProjectileSprite(ProjectileType.FrenchFries),drawRectangle.Center.X, drawRectangle.Center.Y - GameConstants.FRENCH_FRIES_PROJECTILE_OFFSET, 
                         -GameConstants.FRENCH_FRIES_PROJECTILE_SPEED);
                     Game1.AddProjectile(proj);
+                    shootSound.Play();
                 }
                 if (!canShoot)
                 {
