@@ -91,11 +91,14 @@ namespace GameProject
             explosion = Content.Load<SoundEffect>(@"sounds\Explosion");
             teddyBounce = Content.Load<SoundEffect>(@"sounds\TeddyBounce");
             teddyShot = Content.Load<SoundEffect>(@"sounds\TeddyShot");
+
             // load sprite font
+            font = Content.Load<SpriteFont>("Arial20");
 
             // load projectile and explosion sprites
             teddyBearProjectileSprite = Content.Load<Texture2D>("teddybearprojectile");
             frenchFriesSprite = Content.Load<Texture2D>("frenchfries");
+
             // add initial game objects
             burger = new Burger(Content,"burger",GameConstants.WINDOW_WIDTH/2,GameConstants.WINDOW_HEIGHT/8*7, burgerShot);
             for (int i = 0; i < GameConstants.MAX_BEARS; i++ )
@@ -103,7 +106,10 @@ namespace GameProject
                 SpawnBear();
             }
             explosionSpriteStrip = Content.Load<Texture2D>("explosion");
+
             // set initial health and score strings
+            healthString = burger.Health + GameConstants.HEALTH_PREFIX;
+            scoreString = GameConstants.SCORE_PREFIX + score;
         }
 
         /// <summary>
@@ -197,7 +203,7 @@ namespace GameProject
                     explosions.Add(bearExplosion);
                     burgerDamage.Play();
                     CheckBurgerKill();
-                    
+                    healthString = GameConstants.HEALTH_PREFIX + burger.Health;
                 }
             }
             // check and resolve collisions between burger and projectiles
@@ -224,8 +230,12 @@ namespace GameProject
                         proj.Active = false;
                         // create explosion at the bear's location and add to the list
                         Explosion exp = new Explosion(explosionSpriteStrip,bear.Location.X, bear.Location.Y, explosion);
+                        
                         explosions.Add(exp);
 
+                        score += GameConstants.BEAR_POINTS;
+                        scoreString = GameConstants.SCORE_PREFIX + score;
+                        
                     }
                 }
             }
@@ -287,7 +297,8 @@ namespace GameProject
             }
 
             // draw score and health
-
+            spriteBatch.DrawString(font,healthString, GameConstants.HEALTH_LOCATION,Color.White);
+            spriteBatch.DrawString(font, scoreString, GameConstants.SCORE_LOCATION, Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
