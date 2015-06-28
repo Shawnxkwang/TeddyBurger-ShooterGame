@@ -1,3 +1,3 @@
 ## TeddyBurger ##
 
-**TeddyBurger** is a 2D shooter game project for a Coursera online course.
+**TeddyBurger** is a 2D shooter game project produced using XNA with C# for a Coursera online course.
